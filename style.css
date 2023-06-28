@@ -1,0 +1,129 @@
+*{
+    background-color: rgb(255, 181, 97);
+}
+
+#gameName{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.entirety{
+    display:flex;
+    justify-content: center;
+}
+
+.leftContainer{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right:20px;
+    border: solid 8px gray;
+    background-color: rgb(79, 214, 255);
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.rightContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:16px;
+    border: solid 8px gray;
+    border-radius: 5px;
+    background-color: rgb(79, 214, 255);
+}
+
+#grid{
+    display:flex;
+    width: 600px;
+    height: 600px;
+    margin:10px;
+    padding:15px;
+    background-color:rgb(216, 119, 49);
+    border:solid 5px rgb(167, 158, 158);
+    flex-wrap:wrap;
+    
+}
+
+/*box Class*/
+.box{
+    display:flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color:white;
+}
+
+
+/*Slider*/
+.slider{
+    outline:none;
+    background-color: rgb(206, 198, 198);
+}
+.rangeValue{
+    text-align: center;
+}
+
+/*Eraser & Clear Button*/
+.button{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(255, 195, 64);
+    padding: 8px 0px;
+    font-weight: bold;
+}
+
+
+
+/*Colors*/
+#Palate{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    max-width: 600px;
+    gap:4px;
+    background-color: rgb(79, 214, 255);;
+    
+}
+.colorChoice{
+    min-height: 30px;
+    min-width: 30px;
+    
+
+}
+.red{
+    background-color: red;
+}
+.purple{
+    background-color: purple;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.brown{
+    background-color: brown;
+}
+.cyan{
+    background-color: cyan;
+}
+.pink{
+    background-color: pink;
+}
+.lgreen{
+    background-color: lightgreen;
+}
+.gray{
+    background-color: gray;
+}

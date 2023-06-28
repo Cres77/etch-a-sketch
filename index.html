@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <h1 id="gameName">Etch-a-Sketch</h1>
+
+        <div class="entirety">
+
+
+            <div class="leftContainer">
+                <div id="sizeChange">
+                    <h3 class="rangeValue"></h3>
+                    <input type="range" min="2" max="64" class="slider" id="sizeRange" value="16">
+                </div>
+
+                <button id="clear" onclick="resetGrid()" class="button">Clear</button>
+
+                <button id="rainbow" onclick="rainbowMode()" class="button">Rainbow Mode</button>
+                
+                <button id="eraser" onclick="erase()" class="button">Eraser</button>
+
+            </div>
+            
+
+            <div class="rightContainer">
+
+                <div id="grid"></div>
+
+
+                <div id="Palate">
+                    <button class="red colorChoice" onclick="color('red')"></button>
+                    <button class="purple colorChoice" onclick="color('purple')"></button>
+                    <button class="blue colorChoice" onclick="color('blue')"></button>
+                    <button class="black colorChoice" onclick="color('black')"></button>
+                    <button class="green colorChoice" onclick="color('green')"></button>
+                    <button class="yellow colorChoice" onclick="color('yellow')"></button>
+                    <button class="orange colorChoice" onclick="color('orange')"></button>
+                    <button class="brown colorChoice" onclick="color('brown')"></button>
+                    <button class="cyan colorChoice" onclick="color('cyan')"></button>
+                    <button class="pink colorChoice" onclick="color('pink')"></button>
+                    <button class="lgreen colorChoice" onclick="color('lightgreen')"></button>
+                    <button class="gray colorChoice" onclick="color('gray')"></button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </body>
+</html>
