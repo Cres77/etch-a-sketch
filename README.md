@@ -1,2 +1,2 @@
 # etch-a-sketch
-Hopefully my best work yet
+Allows the user to draw on a pixelated canvas as they would with a real etch-a-sketch.
